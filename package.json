@@ -1,0 +1,18 @@
+{
+  "name": "sniper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reference.js",
+  "scripts": {
+    "session": "node reference.js",
+    "start": "node course-war.js",
+    "probe": "node poll-probe.js",
+    "test": "node --check config.js && node --check lib/alarm.js && node --check lib/logger.js && node --check lib/six-html.js && node --check lib/six-state.js && node --check lib/time.js && node --check reference.js && node --check course-war.js && node --check poll-probe.js && node test/six-html.test.js && node test/six-state.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.62.1"
+  }
+}
